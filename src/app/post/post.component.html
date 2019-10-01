@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4 text-danger">Current Status</h1>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor illum impedit nesciunt aspernatur hic reiciendis.</p>
+    <hr class="my-4">
+    <div class="form-group">
+      <textarea id="my-textarea" class="form-control" name="post" rows="3" [(ngModel)]="enteredValue"></textarea>
+    </div>
+    <button class="btn btn-warning btn-lg btn-block" (click)='onAddPost()'>submit</button>
+  </div>
+</div>
+
+{{postData}}
